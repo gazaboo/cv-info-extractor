@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cv-info-extractor"
+version = "0.1.0"
+description = "Simple streamlit app using ollam to extract dat"
+authors = ["gazaboo <florian.dadouchi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.35.0"
+ollama = "^0.2.1"
+PyPDF2 = "^3.0.1"
+streamlit-pdf-viewer = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
